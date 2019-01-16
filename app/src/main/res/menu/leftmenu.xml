@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/myrelease"
+        android:icon="@drawable/fabu"
+        android:title="我要发布"/>
+    <item
+        android:id="@+id/mysubscribe"
+        android:icon="@drawable/yuyue"
+        android:title="我的预约"/>
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/xiaoxi"
+        android:title="我的消息"/>
+    <item
+        android:id="@+id/my"
+        android:icon="@drawable/renwu"
+        android:title="个人中心"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/zhuxiao"
+        android:title="注销"/>
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/tuichu"
+        android:title="退出"/>
+</group>
+</menu>

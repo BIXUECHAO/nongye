@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/subscribe1" android:state_pressed="true" android:color="@color/MaterialLightBlack"/>
+    <item android:drawable="@drawable/subscribe" android:state_checked="true" android:color="@color/zhuti" />
+    <item android:drawable="@drawable/subscribe1" android:color="@color/MaterialLightBlack"/>
+</selector>

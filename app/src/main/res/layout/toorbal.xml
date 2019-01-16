@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/zhuti">
+        <TextView
+            android:id="@+id/tb_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="首页"/>
+        <TextView
+            android:id="@+id/tb_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地区"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_gravity="left"
+            android:drawableRight="@drawable/daosanjiao"
+            />
+
+    </android.support.v7.widget.Toolbar>
+</android.support.constraint.ConstraintLayout>

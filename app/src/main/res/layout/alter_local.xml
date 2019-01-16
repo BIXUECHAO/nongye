@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/circle_corner"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/at_shen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   请输入省份"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+            <EditText
+                android:id="@+id/at_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   请输入城市"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+            <EditText
+                android:id="@+id/at_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   请输入具体位置"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+</LinearLayout>
